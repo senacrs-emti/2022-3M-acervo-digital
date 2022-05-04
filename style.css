@@ -7,12 +7,20 @@ h1{
 }
 .card-img-top{
     border:  5px solid gray;
-    border-radius: 25px;
+    border-radius: 3px;
+    ;
 }
 
 .container-row{
 align-content: center;
 
+}
+.card-body{
+background-color: rgb(117, 112, 112);
+border-radius: 3px;
+}
+.card{
+    border-radius: 25px;
+
 
 }
- 
