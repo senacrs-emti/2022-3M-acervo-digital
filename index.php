@@ -22,9 +22,9 @@
     <div id="mySidenav" class="sidenav">
   
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="index.html">Home </a>
+      <a href="index.php">Home </a>
       <a href="#">Sobre o Acervo</a>
-      <a href="escritores.html">Escritores </a>
+      <a href="escritores.php">Escritores </a>
       <a href="#">Confira mais livros</a>
     </div>
     
