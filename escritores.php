@@ -13,7 +13,7 @@
 
 
 <body>
- <!--Menu
+ <!--Menu-->
  <nav class="navbar navbar-light bg-light fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Dondoni</a>
@@ -46,11 +46,24 @@
 <!--"Fim do menu"-->
 
 <!--Sobre-->
+<div class="container-fluid-1">
+<div class="row">
+<H2>Ola Mundo</H2>
+<div class="col">
+  <img src="image/Massis.png" alt="">
 
+
+
+
+
+
+</div>
+</div>
+</div>
 <!--Fims sobre-->
 
 <!--List-->
-<div class="lista">
+<div class="container-fluid-2">
 <div class="accordion accordion-flush" id="accordionFlushExample">
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingOne">
