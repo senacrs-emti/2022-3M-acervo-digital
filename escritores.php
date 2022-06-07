@@ -48,29 +48,22 @@
 <!--Sobre-->
 <div class="container">
 <div class="row align-items-center">
-  
-    <div class="col">
+    <div class="col ">
+
     <h2>Cruz e Souza</h2>
 <h5>(1861-1891)</h5>
-
+<img src="image/souza.png">
 <p>Cruz e Sousa, principal nome do Simbolismo brasileiro, nasceu em 24 de novembro de 1861. Filho de escravos alforriados, teve acesso à educação formal graças ao apadrinhamento do ex-“dono” de sua mãe. Durante toda a sua vida, sofreu com o preconceito racial, mas lutou contra a escravidão e o racismo. Para sobreviver, trabalhou na Companhia Dramática Julieta dos Santos e, mais tarde, na Estrada de Ferro Central do Brasil,
    quando adquiriu tuberculose, o que o levou à morte em 19 de março de 1898.</p>
     </div>
-    <div class="col">
-      
-<img src="image/souza.png" alt="">
-    </div>
   </div>
-    
-
-
-
 </div>
 <!--Fim sobre-->
 
 <!--List-->
 
 <div class="accordion accordion-flush" id="accordionFlushExample">
+  <!--livro1-->
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingOne">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -78,9 +71,16 @@
       </button>
     </h2>
     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body"><img src="image/broqueis.png" alt=""> Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+    <div class="accordion-body"> 
+
+      <h5>É composto por 54 poemas, demarcados com a presença da cor branca em variados jogos e matizes - seja a presença da luminosidade do luar, da neblina; seja a presença da neve, das imagens vaporosas, dos cristais, como no belíssimo 'Antífona', poema de abertura da obra.
+</h5>
+      <img src="image/broqueis.png" alt=""> 
+   
+  </div>
     </div>
   </div>
+<!--Livro2-->
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingTwo">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
@@ -88,21 +88,32 @@
       </button>
     </h2>
     <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body"><img src="image/sonetos.png" alt="Últimos Sonetos">   Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+      <div class="accordion-body">
+        <h5> Nesse livro de sonetos, Cruz e Souza revela grande ansiedade diante do descaso com a sua obra artística. O desejo pelo reconhecimento pauta grande parte de seus poemas, que foram escritos já próximos a sua morte; o que pode justificar em parte seus desabafos. Ao chegar ao fim da vida sem ter seus méritos aclamados pelos escritores da época, seus sonetos a todo momento transmitem a angústia de um sofrimento constante com tal realidade.
+Em um dos sonetos, "Grande momento", o autor fala sobre como gostaria de ter sentir tal consagração, já em outro, "Vida obscura", ele revela sua mágoa diante da obscuridade de suas obras. Muito drama envolve seu livro, e a opção de fazer uso de uma linguagem exuberante contribui ainda mais para que sua dor torne-se ainda mais trágica e intensa.</h5>
+        <img src="image/sonetos.png" alt="Últimos Sonetos">  
+       
+      </div>
     </div>
   </div>
+
+<!--Livro3-->
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingThree">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-        Livro
+        Faróis
       </button>
     </h2>
     <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+      <div class="accordion-body">
+    <h5> </h5>
+      </div>
+      <img src="image/farois.png" alt="">
+    
     </div>
   </div>
 </div>
-</div>
+
 <!-- Fim List-->
 
 

@@ -25,7 +25,7 @@
       <a href="index.php">Home </a>
       <a href="#">Sobre o Acervo</a>
       <a href="escritores.php">Escritores </a>
-      <a href="#">Confira mais livros</a>
+      <a href="escritor1.php">Confira mais livros</a>
     </div>
     
     <div id="main">

@@ -1,8 +1,12 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 body{
     background-color: #C0C0C0	;
 }
 
 .row{
+    
     border: solid black 2px ;
 }
 
@@ -12,15 +16,16 @@ body{
     border-radius: 5px;
 }
 .container{
-    font-family: Arial, Helvetica, sans-serif;
+    
     
     margin-top: 100px;
     font-style: normal;
+    margin-bottom: 45px;
     
 }
 
 .col h2{
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+
     
 }
