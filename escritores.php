@@ -9,11 +9,10 @@
   <!---->
 <link rel="stylesheet" href="style2.css">
     <title>Escritores</title>
+
 </head>
-
-
-<body>
- <!--Menu-->
+<header>
+  <!--Menu-->
  <nav class="navbar navbar-light bg-light fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Dondoni</a>
@@ -42,8 +41,11 @@
     </div>
   </div>
 </nav>
-
 <!--"Fim do menu"-->
+</header>
+
+<body>
+ 
 
 <!--Sobre-->
 <div class="container">
