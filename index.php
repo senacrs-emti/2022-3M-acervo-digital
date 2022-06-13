@@ -83,20 +83,23 @@
   FIM CAROSSEL-->
 
 <!--cardi-->
-<div class="row">
-  
-  <div class="card" style="width: 18rem;">
+<div class="container">
+<div class="row align-items-center">
+  <div class="col">
+
+  <div class="card" style="width: 15rem;">
   <img src= "image/souza.png" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Cruz e Souza</h5>
-    <p class="card-text">O escritor brasileiro Cruz e Sousa nasceu em 1861 e faleceu em 1898. O autor, além de escrever poesias, era também um abolicionista. Foi um dos principais autores do simbolismo brasileiro. A presença da cor branca é uma das principais características de suas poesias.</p>
+    <p class="card-text">O escritor brasileiro Cruz e Sousa nasceu em 1861 e faleceu em 1898.</p>
     <a href="souza.php" class="btn btn-success">Confira</a>
+
   </div>
 </div>
 </div>
 </div>  
-  </div>
 </div>
+
 
 <!--FIM CARDI-->
 

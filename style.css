@@ -5,30 +5,26 @@
 
 
 
-.carousel-item {
-    width: 280px;
-    height: 280px; 
-}
 
+
+
+.row{
+    border: solid red 2px;
+    
+}
 .col{
-    width: 300px;
-    height: 300px;  
-border: solid 2px aqua;
+    border: solid green 5px;
+ 
 }
 
-
-.container{  
-    border: solid black 3px;
-    width: 300px;
-    height: 300px;
-    margin-top: 100px;
-    font-style: normal;
-    margin-bottom: 45px;
+.container{
+    border: solid black;
+    margin: 50px;
 }
 .card{
-    margin: 100px;
-    background-color: #DCDCDC ;
     
+    background-color: #DCDCDC ;
+ 
 }
 .card-body{
     background-color: #DCDCDC ;
