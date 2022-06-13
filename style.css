@@ -1,10 +1,36 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
 
-.container{
-    border: solid black 3px;
-    margin: 200px;
+
+
+.carousel-item {
+    width: 280px;
+    height: 280px; 
 }
 
 .col{
-    color: blue;
+    width: 300px;
+    height: 300px;  
 border: solid 2px aqua;
+}
+
+
+.container{  
+    border: solid black 3px;
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+    font-style: normal;
+    margin-bottom: 45px;
+}
+.card{
+    margin: 100px;
+    background-color: #DCDCDC ;
+    
+}
+.card-body{
+    background-color: #DCDCDC ;
+    border: solid black 1px;
 }

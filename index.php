@@ -21,13 +21,13 @@
     </button>
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Dondoni</h5>
         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="escritores.php">Home</a>
+            <a class="nav-link active" aria-current="page" href="souza.php">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Link</a>
@@ -58,52 +58,48 @@
     </header>
 
 <body>
-  
-
-<!--Carossel-->
+<!--Carossel
 <div class="container">
-<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
+  <div class="row">
+    
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="..." class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
+      <img src="image/pato.png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
       <img src="image/livro.png" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Livro muito foda</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
     </div>
     <div class="carousel-item">
-      <img src="https://scc10.com.br/wp-content/uploads/2020/10/Ratinho-SBT.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Ratinno</h5>
-        <p>Vulgo pai do caetano</p>
-      </div>
+      <img src="..." class="d-block w-100" alt="...">
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
 </div>
+
+    </div>
+  </div>
+</div>
+  FIM CAROSSEL-->
+
+<!--cardi-->
+<div class="row">
   
-</div> 
-    
-  <!--FIM CAROSSEL-->
+  <div class="card" style="width: 18rem;">
+  <img src= "image/souza.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Cruz e Souza</h5>
+    <p class="card-text">O escritor brasileiro Cruz e Sousa nasceu em 1861 e faleceu em 1898. O autor, além de escrever poesias, era também um abolicionista. Foi um dos principais autores do simbolismo brasileiro. A presença da cor branca é uma das principais características de suas poesias.</p>
+    <a href="souza.php" class="btn btn-success">Confira</a>
+  </div>
+</div>
+</div>
+</div>  
+  </div>
+</div>
+
+<!--FIM CARDI-->
+
 </body>
 <!-- Bootstrap-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
