@@ -17,7 +17,7 @@
             <a class="nav-link active" aria-current="page" href="index.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="escritores.php">Escritores</a>
           </li>
           
         <form class="d-flex">
