@@ -7,6 +7,10 @@ include_once 'includes/head.php';
 include_once 'includes/header.php';
 include_once "includes/conn.php";
 
+// monta SQL dos dados
+$sql = "SELECT * FROM autores";
+// recupera os dados
+$registro = mysqli_query($conn, $sql);
 ?>
 
 
@@ -20,7 +24,13 @@ include_once "includes/conn.php";
 <body>
  <!--Sobre-->
  <div class="nomeautor">
-	<h3>nomeautor</h3>
+  <?php 
+  // laco que pega dado por dado
+   while ($dados = mysqli_fetch_array($registro,MYSQLI_ASSOC)) {
+		// lista os dados
+		echo '<a href="autor-detalhe.php?ID='.$dados['AutorID'].'">'.$dados['AutorNome'].'</a><br>';
+	}
+?>
 
 
  </div>
